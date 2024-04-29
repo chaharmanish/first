@@ -1,0 +1,33 @@
+/* header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+     /* justify-content: center;  */
+    /* align-items: center;  */
+     /* gap: 0px;  */
+    /* display: flex; */
+    /* justify-content: flex-start; Align header content to the start (left) */
+    /* align-items: center; Vertically center header content */
+    /* height: 100px; Set the height of the header as needed */
+    /* padding: 0 20px; Add padding to the header if necessary */
+  /* } */
+  
+  /* header img { */
+    /* width: 500px; Adjust the width as needed */
+    /* height: auto; Maintain aspect ratio */
+    /* margin-right: 100px; Add some margin between the icon and other header content */
+  /* } */
+
+  /* header {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    height: 100px; 
+    background-color: #f0f0f0; 
+    padding-inline-start: 100px;
+  }
+  
+  header img {
+    margin-right: auto;
+    width: 500px; 
+    height: auto; 
+  } */

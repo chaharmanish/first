@@ -1,0 +1,110 @@
+
+
+.carousel {
+  width: 80%;
+  margin: auto;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 200px; /* Adjust the height as needed */
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+}
+
+
+
+ .image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+     justify-content: center; 
+    align-items: center; 
+ 
+ }  
+
+ .image-container img { 
+    
+    max-width: 20%; 
+     display: block;
+     margin: auto; 
+ }  
+
+
+
+ .carousel-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel {
+  max-width: 80%;
+}
+
+.main-slider, .profile-slider {
+  display: flex;
+}
+
+.main-slider div, .profile-slider div {
+  flex: 0 0 auto;
+  margin-right: 10px; /* Adjust as needed for spacing between images */
+}
+
+.main-slider img, .profile-slider img {
+  max-width: 100%;
+}
+ 
+  
+  header img {
+    margin-right: auto;
+    width: 500px; 
+    height: auto; 
+  }
+  /* .image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: column;
+    align-items: center;
+  }
+  .image-container {
+    position: relative;
+    width: 100%; 
+    height: auto; 
+  }
+   */
+   .image-container {
+    position: relative;
+    width: 100%; /* Adjust as needed */
+    height: auto; /* Adjust as needed */
+  }
+  
+  .background-image {
+    width: 100%; /* Ensure background image fills its container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .third-image {
+    position: absolute;
+    top: 70%; /* Center the third image vertically */
+    left: 25%; /* Center the third image horizontally */
+    transform: translate(-50%,-50%); /* Center the third image perfectly */
+    z-index: 1; 
+  }
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Adjust background color and opacity */
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .image-text {
+    margin: 0;
+    font-size: 18px; /* Adjust font size as needed */
+    color: black; /* Adjust text color as needed */
+    font-family: Arial, sans-serif; /* Adjust font family as needed */
+  }
